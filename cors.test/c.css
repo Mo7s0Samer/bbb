@@ -1,0 +1,75 @@
+section
+{
+	
+}
+h1
+{
+	text-align: center;
+	color: ivory;
+	background: #25c5b7;
+	margin: 10;
+
+}
+div
+{
+	width: 33.3%;
+	float: left;
+		
+}
+h2
+{
+	float: right;
+	padding: 10PX;
+	margin: 10px;
+	border: 3px solid #25c5b7;
+	background: white ;
+}
+.fb
+{
+	color: dodgerblue;
+}
+.google
+{
+	color: crimson;
+	
+}
+.amazon
+{
+	color: darkorange;
+
+}
+p
+{
+		border: 3px solid #25c5b7;
+	 margin: 10px;
+	 padding: 10px;
+ 	background: #cadedc;
+}
+@media (min-width:768px) and (max-width:991px)
+{
+	div
+{
+	float: left;	
+	width: 49.5%;
+	}
+	.n
+	{
+		width: 100%;
+	}
+h2
+	{
+			border: 3px solid #25c5b7;
+	}
+}
+@media  (max-width:767px)
+{
+	div
+	{
+		float: none;
+		width: 100%;
+	}
+h2
+	{
+			border: 3px solid #25c5b7;
+	}
+}
